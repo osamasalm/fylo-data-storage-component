@@ -191,6 +191,17 @@ body {
         bottom: 75%;
         left: 75%;
     }
+    
+    .triangle {
+        width: 0; 
+        height: 0; 
+        border-top: 1em solid transparent;
+        border-bottom: 1em solid transparent; 
+        border-right:1em solid white;
+        position: absolute;
+        bottom: -32%;
+        left: 84.3%;
+    }
 }
 
 @media (max-width: 350px) {
